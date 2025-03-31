@@ -1,0 +1,112 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+title {
+    background-color: #a09b9be0;
+    color: #333;
+    text-align: center;
+}
+
+/* Body Styling */
+body {
+    background-color: #a09b9be0;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    flex-wrap:wrap;
+    width: 40%;
+    align-items: center;
+    background-color: #941f1f;
+    padding: 15px 30px;
+    color: rgb(163, 163, 163);
+}
+
+.logo img {
+    width: 100px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap:wrap;
+    flex: 50%;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+/* Hero Section */
+ h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 3.5rem;
+}
+
+.welcome p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap:wrap;
+    flex: 40%;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Edit Button Styling */
+.edit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background: #941f1f;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
